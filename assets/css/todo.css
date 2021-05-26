@@ -1,0 +1,80 @@
+.js-clock {
+  color: rgb(54, 54, 54);
+  font-size: 55px;
+}
+
+.js-clock h1 {
+  margin-top: 4vw;
+  font-size: 5.5vw;
+  color: rgb(58, 58, 58);
+}
+
+.js-greetings {
+  font-size: 34px;
+  color: rgb(54, 54, 54);
+  text-align: center;
+}
+
+.sec5-set .con1 input {
+  width: 21vw;
+  height: 63px;
+  font-size: 1.1vw;
+  background-color: transparent;
+  color: rgb(54, 54, 54);
+  border: 1px solid rgb(54, 54, 54);
+  margin-top: 3vw;
+}
+
+.js-weather {
+  color: rgb(0, 0, 0);
+  font-size: 21px;
+  display: inline-block;
+  width: 20vw;
+  height: 5vh;
+  margin-bottom: 1.3vh;
+}
+
+.sec5-set .con1 input::placeholder {
+  color: rgb(54, 54, 54);
+}
+
+.sec5-set .con1 input:focus {
+  outline: 3px solid #ff9838;
+}
+
+.sec5-set .con1 em {
+  font-size: 0.8vw;
+}
+
+.js-toDoList {
+  list-style: none;
+  width: 20vw;
+  height: 5vw;
+}
+
+.js-toDoList li {
+  text-align: center;
+  margin: 1vw;
+}
+
+.js-toDoList li span {
+  font-size: 1.5vw;
+  color: rgb(54, 54, 54);
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.clicked {
+  color: #0d8088;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}

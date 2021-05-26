@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Serif-Pro-Black";
+  src: url("../font/Source-Serif-Pro-Black.ttf.woff");
+}
+@font-face {
+  font-family: "GT-Flexa-Thin";
+  src: url("../font/GT-Flexa-Thin-Trial.woff2");
+}
+
+/* header */
+#header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 20px 30px;
+  z-index: 9999;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav li {
+  display: inline;
+  font-family: "GT-Flexa-Thin";
+  font-size: 18px;
+  font-weight: 100;
+  padding: 10px 20px;
+}
+
+.nav li.strong {
+  font-family: "Serif-Pro-Black";
+  font-size: 20px;
+}

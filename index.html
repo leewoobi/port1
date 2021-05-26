@@ -1,0 +1,949 @@
+<?php
+    include './connect/connect.php';
+    include './connect/session.php';
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="assets/css/style8.css">
+     <link rel="stylesheet" href="assets/css/header.css">
+
+     <!--javascript css  -->
+    <link rel="stylesheet" href="assets/css/tic.css">
+    <link rel="stylesheet" href="assets/css/todo.css">
+    <link rel="stylesheet" href="assets/css/tetris.css">
+
+
+    <!-- webfonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+</head>
+
+<body data-0="  background: rgb(255, 255, 255);" data-13800=" background: rgb(255, 255, 255);" data-14000="background: rgb(0, 0, 0);" data-15100="background: rgb(0, 0, 0);" data-15600="background: rgb(255, 255, 255);">
+
+
+
+    <div class="scroll">0</div>
+
+  
+            <!-- header  -->
+            <?php
+            include './component/header.php';
+            ?>
+              <!--/ header  -->
+
+
+    <div id="contents">
+        <section id="section1">
+            <div class="sec1">
+                <h1>Portfolio <strong>New Normal Developer</strong></h1>
+
+            </div>
+
+            <div class="circle1" 
+                data-0="left: 50%; top: 50%; width: 100vw; height: 100vw; transform: translate(-74%, -68%); opacity: 1;"
+                data-500="left: 50%; top: 50%; width: 50vw; height: 50vw; transform: translate(-50%, -50%); opacity: 1;                     " 
+                data-1500="left: 50%; top: 50%; width: 150vw; height: 150vw; opacity: 1" 
+                data-2000="left: 50%; top: 50%; width: 150vw; height: 150vw; opacity: 1; display: block"
+                data-2001="display: none">
+            </div>
+
+            <div class="circle2"
+              data-0="display:block; left: 50%; bottom: 50%; width: 100vw; height:100vw; opacity: 1; transform: translate(-79%, -12%);  "
+              data-500="left: 50%; bottom: 50%; width: 10vw; height:10vw; opacity: 1; transform: translate(-79%, -12%);  background: rgba(255,255,255,0)"
+              data-800="left: 50%; bottom: 50%; width: 100vw; height: 100vw; opacity: 1; transform: translate(-94%, 50%); background: rgba(255,255,255,0)"
+              data-1200="left: 50%; bottom: 50%; width: 100vw; height: 100vw; opacity: 1; transform: translate(-94%, 50%); background: rgba(0,0,0,1)"
+              data-1600="left: 0%; bottom: 50%; width: 2vw; height: 2vw; opacity: 1; transform: translate(-50%, -50%); background: rgba(0,0,0,1)"
+              data-3000="display:none; left: 0%; bottom: 50%; width: 2vw; height: 2vw; opacity: 1; transform: translate(-50%, -50%); background: rgba(0,0,0,1)"
+            >
+            </div>
+
+            <!-- 
+                 원 모션을 간결하게 바꾸고 텍스트 모션을 추가하는 법  
+                 사이트 부분 원과 목업 모션이 해상도에 따라 같게 모션 수정하기
+                 
+                 
+            -->
+
+        </section>
+        <!-- //section1 -->
+
+        <section id="section2">
+            <div class="sec2">
+                <h2
+                data-0="color:rgba(0, 0, 0,1);" 
+                data-800="color:rgba(0, 0, 0,1);"
+                data-1200 ="color:rgba(255, 255, 255,1);"
+              
+                >About <strong> 
+                    <span
+                    data-0="background:rgba(0, 0, 0,1);" 
+                    data-800="background:rgba(0, 0, 0,1);"
+                    data-1200 ="background:rgba(255, 255, 255,1);"
+                    >
+                    </span> who am i<br>be frontend</strong></h2>
+                <div class="text">
+                    <ul>
+                        <li>Coding system</li>
+                        <li>guidelines</li>
+                        <li>identity</li>
+                        <li>quality assurance</li>
+                        <li>usability </li>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>Webstandard</li>
+                        <li>Responsive</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>PHP</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <p class="text2">
+
+                    안녕하세요 신입 프론트엔드 개발자를 목표로 공부하고 있는 이상인 입니다. 
+                    첫 걸음을 내 딛는 순간이라 아직 많이 부족합니다. 항상 성장을 목표로  
+                    부족한 부분을 채우고 불필요한 반복은 줄이며 더 효율적인 코딩에 대해 고민하고 있습니다. 
+                    저의 장점인 노련한 근성으로 조금씩 벽돌을 쌓아 올리고 있으며  
+                    든든한 버팀목으로 성장하여 저의 역할을 다 하고 싶습니다. 감사합니다. 
+
+                <div class="sec2-main">
+
+                    <div class="sec2-img">
+                        <h3>New Developer</h3>
+                        <strong>lee sang in</strong>
+                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 314.15 727.58">
+                            <defs>
+                                <style>
+                                    .cls-1 {fill: #30302f;}.cls-2, .cls-3 {fill: none; stroke-miterlimit: 10;} .cls-2 { stroke: #000;} .cls-3 { stroke: #30302f;}
+                                </style>
+                            </defs>
+                            <path class="cls-1" d="M820.89,717.25a6.45,6.45,0,0,1,6.44,6.45,9.68,9.68,0,0,1-2.48,6.41c-3.72,4-8.13,8.13-9.84,9.69-1.72-1.56-6.14-5.66-9.85-9.69a9.68,9.68,0,0,1-2.48-6.41,6.44,6.44,0,0,1,11.47-4l.86,1.07.85-1.07a6.41,6.41,0,0,1,5-2.42m0-1.1A7.53,7.53,0,0,0,815,719a7.54,7.54,0,0,0-13.43,4.72,10.75,10.75,0,0,0,2.77,7.15c4.79,5.2,10.66,10.43,10.66,10.43h0s5.86-5.23,10.65-10.43a10.75,10.75,0,0,0,2.77-7.15,7.54,7.54,0,0,0-7.54-7.55Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M858.7,719.06a10.41,10.41,0,0,1,8.8,16l-.3.47.19.51,1.38,3.64-3.84-1.32-.48-.17-.44.26a10.41,10.41,0,1,1-5.31-19.36m0-1.1a11.51,11.51,0,1,0,5.87,21.41l6,2.08-2.2-5.83A11.5,11.5,0,0,0,858.7,718Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M889.66,717.32l10,9.73,1.26,12.89,17.58-22.62Zm10.58,8.61L893,718.65h21.16Zm.7,1.12,13.84-7.17-13,17Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M1062.19,741.65v-26h21.28v26l-10.64-9.78Zm10.64-11.39,9.45,8.69V716.82h-18.9V739Z" transform="translate(-800.38 -203)" /><path class="cls-2" d="M954.53,850.61H942.07a8.5,8.5,0,0,0-8.5,8.5v12.46a8.51,8.51,0,0,0,8.5,8.5h12.46a8.5,8.5,0,0,0,8.5-8.5V859.11a8.49,8.49,0,0,0-8.5-8.5m5.79,21.18a5.65,5.65,0,0,1-5.65,5.64H941.93a5.65,5.65,0,0,1-5.65-5.64V859a5.65,5.65,0,0,1,5.65-5.65h12.74a5.65,5.65,0,0,1,5.65,5.65Z" transform="translate(-800.38 -203)" /><path class="cls-2" d="M948.3,857.77a7.65,7.65,0,1,0,7.65,7.64,7.64,7.64,0,0,0-7.65-7.64m0,12.6a5,5,0,1,1,5-5,5,5,0,0,1-5,5" transform="translate(-800.38 -203)" /><path class="cls-2" d="M956.2,855.7a1.78,1.78,0,1,0,1.78,1.78,1.78,1.78,0,0,0-1.78-1.78" transform="translate(-800.38 -203)" /><path class="cls-1" d="M1083.24,873.79v-2.55a5.82,5.82,0,0,0-5.84-5.8l-13.41.06a5.82,5.82,0,0,0-5.79,5.84v2.55h-1.36v-3a6.85,6.85,0,0,1,6.82-6.87l14-.06a6.85,6.85,0,0,1,6.87,6.82v3Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M1070.58,849.64a6.38,6.38,0,1,1-6.35,6.41,6.4,6.4,0,0,1,6.35-6.41m0-1.22a7.6,7.6,0,1,0,7.63,7.57,7.6,7.6,0,0,0-7.63-7.57Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M893.32,876.31l-5.46-5.91a10.85,10.85,0,1,0-.87.71l5.51,6ZM870.63,862.2a9.89,9.89,0,1,1,9.89,9.89A9.9,9.9,0,0,1,870.63,862.2Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M819.78,849.26l13,12.42v12.9H823.5v-8.12a3.68,3.68,0,1,0-7.36,0v8.12h-9.4v-12.9l13-12.42m0-1.74-14.3,13.62v14.7h11.93v-9.38a2.42,2.42,0,1,1,4.83,0v9.38h11.85v-14.7l-14.31-13.62Z" transform="translate(-800.38 -203)" /><circle class="cls-3" cx="14.96" cy="107.04" r="14.46" /><path class="cls-1" d="M1053.35,203l8.86,8.67,1.13,11.48L1079,203Zm9.43,7.67-6.43-6.49h18.84Zm.62,1,12.33-6.39-11.58,15.13Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M1010.21,855.17a5.75,5.75,0,0,1,5.74,5.74,8.61,8.61,0,0,1-2.22,5.71c-3.31,3.59-7.24,7.24-8.77,8.63-1.52-1.39-5.46-5-8.77-8.63a8.65,8.65,0,0,1-2.21-5.71,5.74,5.74,0,0,1,10.22-3.59l.76.95.77-.95a5.7,5.7,0,0,1,4.48-2.15m0-1a6.69,6.69,0,0,0-5.25,2.52,6.72,6.72,0,0,0-12,4.2,9.54,9.54,0,0,0,2.48,6.37c4.26,4.63,9.48,9.29,9.48,9.29h0s5.22-4.66,9.49-9.29a9.52,9.52,0,0,0,2.47-6.37,6.71,6.71,0,0,0-6.71-6.72Z" transform="translate(-800.38 -203)" />
+                        </svg>
+                        <figure> </figure>
+                    </div>
+                    <div class="sec2-img">
+                        <h3>portfolio</h3>
+                        <strong>lee sang in</strong>
+                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 314.15 727.58">
+                            <defs>
+                                <style>
+                                    .cls-1 {fill: #30302f;}.cls-2,.cls-3 {fill: none;stroke-miterlimit: 10;}.cls-2 {stroke: #000;}.cls-3 {stroke: #30302f;}
+                                </style>
+                            </defs>
+                            <path class="cls-1" d="M820.89,717.25a6.45,6.45,0,0,1,6.44,6.45,9.68,9.68,0,0,1-2.48,6.41c-3.72,4-8.13,8.13-9.84,9.69-1.72-1.56-6.14-5.66-9.85-9.69a9.68,9.68,0,0,1-2.48-6.41,6.44,6.44,0,0,1,11.47-4l.86,1.07.85-1.07a6.41,6.41,0,0,1,5-2.42m0-1.1A7.53,7.53,0,0,0,815,719a7.54,7.54,0,0,0-13.43,4.72,10.75,10.75,0,0,0,2.77,7.15c4.79,5.2,10.66,10.43,10.66,10.43h0s5.86-5.23,10.65-10.43a10.75,10.75,0,0,0,2.77-7.15,7.54,7.54,0,0,0-7.54-7.55Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M858.7,719.06a10.41,10.41,0,0,1,8.8,16l-.3.47.19.51,1.38,3.64-3.84-1.32-.48-.17-.44.26a10.41,10.41,0,1,1-5.31-19.36m0-1.1a11.51,11.51,0,1,0,5.87,21.41l6,2.08-2.2-5.83A11.5,11.5,0,0,0,858.7,718Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M889.66,717.32l10,9.73,1.26,12.89,17.58-22.62Zm10.58,8.61L893,718.65h21.16Zm.7,1.12,13.84-7.17-13,17Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M1062.19,741.65v-26h21.28v26l-10.64-9.78Zm10.64-11.39,9.45,8.69V716.82h-18.9V739Z" transform="translate(-800.38 -203)" /><path class="cls-2" d="M954.53,850.61H942.07a8.5,8.5,0,0,0-8.5,8.5v12.46a8.51,8.51,0,0,0,8.5,8.5h12.46a8.5,8.5,0,0,0,8.5-8.5V859.11a8.49,8.49,0,0,0-8.5-8.5m5.79,21.18a5.65,5.65,0,0,1-5.65,5.64H941.93a5.65,5.65,0,0,1-5.65-5.64V859a5.65,5.65,0,0,1,5.65-5.65h12.74a5.65,5.65,0,0,1,5.65,5.65Z" transform="translate(-800.38 -203)" /><path class="cls-2" d="M948.3,857.77a7.65,7.65,0,1,0,7.65,7.64,7.64,7.64,0,0,0-7.65-7.64m0,12.6a5,5,0,1,1,5-5,5,5,0,0,1-5,5" transform="translate(-800.38 -203)" /><path class="cls-2" d="M956.2,855.7a1.78,1.78,0,1,0,1.78,1.78,1.78,1.78,0,0,0-1.78-1.78" transform="translate(-800.38 -203)" /><path class="cls-1" d="M1083.24,873.79v-2.55a5.82,5.82,0,0,0-5.84-5.8l-13.41.06a5.82,5.82,0,0,0-5.79,5.84v2.55h-1.36v-3a6.85,6.85,0,0,1,6.82-6.87l14-.06a6.85,6.85,0,0,1,6.87,6.82v3Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M1070.58,849.64a6.38,6.38,0,1,1-6.35,6.41,6.4,6.4,0,0,1,6.35-6.41m0-1.22a7.6,7.6,0,1,0,7.63,7.57,7.6,7.6,0,0,0-7.63-7.57Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M893.32,876.31l-5.46-5.91a10.85,10.85,0,1,0-.87.71l5.51,6ZM870.63,862.2a9.89,9.89,0,1,1,9.89,9.89A9.9,9.9,0,0,1,870.63,862.2Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M819.78,849.26l13,12.42v12.9H823.5v-8.12a3.68,3.68,0,1,0-7.36,0v8.12h-9.4v-12.9l13-12.42m0-1.74-14.3,13.62v14.7h11.93v-9.38a2.42,2.42,0,1,1,4.83,0v9.38h11.85v-14.7l-14.31-13.62Z" transform="translate(-800.38 -203)" /><circle class="cls-3" cx="14.96" cy="107.04" r="14.46" /><path class="cls-1" d="M1053.35,203l8.86,8.67,1.13,11.48L1079,203Zm9.43,7.67-6.43-6.49h18.84Zm.62,1,12.33-6.39-11.58,15.13Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M1010.21,855.17a5.75,5.75,0,0,1,5.74,5.74,8.61,8.61,0,0,1-2.22,5.71c-3.31,3.59-7.24,7.24-8.77,8.63-1.52-1.39-5.46-5-8.77-8.63a8.65,8.65,0,0,1-2.21-5.71,5.74,5.74,0,0,1,10.22-3.59l.76.95.77-.95a5.7,5.7,0,0,1,4.48-2.15m0-1a6.69,6.69,0,0,0-5.25,2.52,6.72,6.72,0,0,0-12,4.2,9.54,9.54,0,0,0,2.48,6.37c4.26,4.63,9.48,9.29,9.48,9.29h0s5.22-4.66,9.49-9.29a9.52,9.52,0,0,0,2.47-6.37,6.71,6.71,0,0,0-6.71-6.72Z" transform="translate(-800.38 -203)" />
+                        </svg>
+                        <figure> </figure>
+                    </div>
+                    <div class="sec2-img">
+                        <h3>New Developer</h3>
+                        <strong>lee sang in</strong>
+                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 314.15 727.58">
+                            <defs>
+                                <style>
+                                    .cls-1 {fill: #30302f;}.cls-2,.cls-3 {fill: none;stroke-miterlimit: 10;}.cls-2 {stroke: #000;}.cls-3 {stroke: #30302f;}
+                                </style>
+                            </defs>
+                            <path class="cls-1" d="M820.89,717.25a6.45,6.45,0,0,1,6.44,6.45,9.68,9.68,0,0,1-2.48,6.41c-3.72,4-8.13,8.13-9.84,9.69-1.72-1.56-6.14-5.66-9.85-9.69a9.68,9.68,0,0,1-2.48-6.41,6.44,6.44,0,0,1,11.47-4l.86,1.07.85-1.07a6.41,6.41,0,0,1,5-2.42m0-1.1A7.53,7.53,0,0,0,815,719a7.54,7.54,0,0,0-13.43,4.72,10.75,10.75,0,0,0,2.77,7.15c4.79,5.2,10.66,10.43,10.66,10.43h0s5.86-5.23,10.65-10.43a10.75,10.75,0,0,0,2.77-7.15,7.54,7.54,0,0,0-7.54-7.55Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M858.7,719.06a10.41,10.41,0,0,1,8.8,16l-.3.47.19.51,1.38,3.64-3.84-1.32-.48-.17-.44.26a10.41,10.41,0,1,1-5.31-19.36m0-1.1a11.51,11.51,0,1,0,5.87,21.41l6,2.08-2.2-5.83A11.5,11.5,0,0,0,858.7,718Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M889.66,717.32l10,9.73,1.26,12.89,17.58-22.62Zm10.58,8.61L893,718.65h21.16Zm.7,1.12,13.84-7.17-13,17Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M1062.19,741.65v-26h21.28v26l-10.64-9.78Zm10.64-11.39,9.45,8.69V716.82h-18.9V739Z" transform="translate(-800.38 -203)" /><path class="cls-2" d="M954.53,850.61H942.07a8.5,8.5,0,0,0-8.5,8.5v12.46a8.51,8.51,0,0,0,8.5,8.5h12.46a8.5,8.5,0,0,0,8.5-8.5V859.11a8.49,8.49,0,0,0-8.5-8.5m5.79,21.18a5.65,5.65,0,0,1-5.65,5.64H941.93a5.65,5.65,0,0,1-5.65-5.64V859a5.65,5.65,0,0,1,5.65-5.65h12.74a5.65,5.65,0,0,1,5.65,5.65Z" transform="translate(-800.38 -203)" /><path class="cls-2" d="M948.3,857.77a7.65,7.65,0,1,0,7.65,7.64,7.64,7.64,0,0,0-7.65-7.64m0,12.6a5,5,0,1,1,5-5,5,5,0,0,1-5,5" transform="translate(-800.38 -203)" /><path class="cls-2" d="M956.2,855.7a1.78,1.78,0,1,0,1.78,1.78,1.78,1.78,0,0,0-1.78-1.78" transform="translate(-800.38 -203)" /><path class="cls-1" d="M1083.24,873.79v-2.55a5.82,5.82,0,0,0-5.84-5.8l-13.41.06a5.82,5.82,0,0,0-5.79,5.84v2.55h-1.36v-3a6.85,6.85,0,0,1,6.82-6.87l14-.06a6.85,6.85,0,0,1,6.87,6.82v3Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M1070.58,849.64a6.38,6.38,0,1,1-6.35,6.41,6.4,6.4,0,0,1,6.35-6.41m0-1.22a7.6,7.6,0,1,0,7.63,7.57,7.6,7.6,0,0,0-7.63-7.57Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M893.32,876.31l-5.46-5.91a10.85,10.85,0,1,0-.87.71l5.51,6ZM870.63,862.2a9.89,9.89,0,1,1,9.89,9.89A9.9,9.9,0,0,1,870.63,862.2Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M819.78,849.26l13,12.42v12.9H823.5v-8.12a3.68,3.68,0,1,0-7.36,0v8.12h-9.4v-12.9l13-12.42m0-1.74-14.3,13.62v14.7h11.93v-9.38a2.42,2.42,0,1,1,4.83,0v9.38h11.85v-14.7l-14.31-13.62Z" transform="translate(-800.38 -203)" /><circle class="cls-3" cx="14.96" cy="107.04" r="14.46" /><path class="cls-1" d="M1053.35,203l8.86,8.67,1.13,11.48L1079,203Zm9.43,7.67-6.43-6.49h18.84Zm.62,1,12.33-6.39-11.58,15.13Z" transform="translate(-800.38 -203)" /><path class="cls-1" d="M1010.21,855.17a5.75,5.75,0,0,1,5.74,5.74,8.61,8.61,0,0,1-2.22,5.71c-3.31,3.59-7.24,7.24-8.77,8.63-1.52-1.39-5.46-5-8.77-8.63a8.65,8.65,0,0,1-2.21-5.71,5.74,5.74,0,0,1,10.22-3.59l.76.95.77-.95a5.7,5.7,0,0,1,4.48-2.15m0-1a6.69,6.69,0,0,0-5.25,2.52,6.72,6.72,0,0,0-12,4.2,9.54,9.54,0,0,0,2.48,6.37c4.26,4.63,9.48,9.29,9.48,9.29h0s5.22-4.66,9.49-9.29a9.52,9.52,0,0,0,2.47-6.37,6.71,6.71,0,0,0-6.71-6.72Z" transform="translate(-800.38 -203)" />
+                        </svg>
+                        <figure> </figure>
+                    </div>
+
+                </div>
+
+                <div class="sec2-about">
+                    <div class="sec2-text">
+
+                        <div>
+                            <h4>뉴노멀의 시대</h4>
+                            <p>
+                                옛날엔 그저 황사먼지를 막기위해 봄에 한번씩 쓰던
+                                마스크가 이제는 일상에서 매일 쓰이는 것처럼
+                                팬데믹으로 생긴 새로운 기준들이 평범한 일상으로
+                                변화된 세상에서 우리는 살고 있습니다.
+                            </p>
+                        </div>
+
+
+                        <div>
+                            <h4>도전</h4>
+                            <p>
+                                시대의 흐름에 따른 뉴노멀을 자주 경험하는 개발자는
+                                새로운 기술에 새로운 트렌드에 관심을 갖고 탐구를 통해
+                                흐름에 대응할 수 있는 기본적인 실력은 물론,
+                                근성과 인내를 가져야 합니다 항상 갈고 닦아
+                                새로운 흐름에 준비가 되어있는 개발자가 되겠습니다.
+                            </p>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //section2 -->
+
+        <section id="section3">
+
+            <div class="circle3" 
+            data-0="display:none;"
+            data-3000="display:block; left: 0%; top: 50%; width: 0vw; height: 0vw;  transform: translate(55%, -50%) skew(0deg) scale(1) rotate(0deg); transform-origin: 50% 50%; ; border-width:10px"
+            data-4700="left: 55%; top: 50%; width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(.2) rotate(0deg); transform-origin: 50% 50%; border-width:1px; background: rgba(255,255,255,0)"
+            data-5000="left: 55%; top: 50%; width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(1) rotate(0deg); transform-origin: 50% 50%;  border-width:0px; background:rgba(234, 220, 211, 1)"
+
+            data-5900="left: 55%; top: 50%; width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(1) rotate(0deg); transform-origin: 125% 100%;  border-width:0px; background: rgba(234, 220, 211, 1)"
+            data-5901="left: 55%; top: 50%; width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(1) rotate(0deg); transform-origin: 50% 50%;   border-width:0px; background:rgba(234, 220, 211, 1)"
+            data-6300="left: 55%; top: 50%; width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(1) rotate(0deg); transform-origin: 50% 50%;   border-width:1px; background: rgba(234, 220, 211, 0)"
+
+            data-6700="left: 55%; top: 50%; width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(.2)  rotate(180deg); transform-origin: 150% 150%; border-width:0px; background: rgba(234, 220, 211, 0)"
+            data-7400="left: 55%; top: 50%; width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(.2)  rotate(360deg); transform-origin: 50% 150%; skew(360deg); border-width:1px; background: rgba(234, 220, 211, 0)"
+            data-7700="left: 55%; top: 50%;width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(1) rotate(360deg); transform-origin: -50% 100%; border-width:1px; background: rgba(234, 220, 211, 0)"
+
+            data-8000="left: 55%; top: 50%; width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(1)  rotate(360deg); transform-origin: 50% 50%;  border-width:0px; background: rgba(234, 211, 211, 1)" 
+            data-8900="left: 55%; top: 50%; width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(1) rotate(360deg); transform-origin: 125% 100%; border-width:0px; background: rgba(234, 211, 211, 1)" 
+            data-8901="left: 55%; top: 50%; width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(1) rotate(360deg); transform-origin: 50% 50%; border-width:0px; background: rgba(234, 211, 211, 1)"
+            data-9300="left: 55%; top: 50%; width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(1) rotate(360deg); transform-origin: 50% 50%; border-width:1px; background: rgba(234, 211, 211, 0)"
+   
+            data-9700="left: 55%; top: 50%; width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(.2)  rotate(540deg); transform-origin: 150% 150%; border-width:0px; background: rgba(234, 220, 211, 0)"
+            data-10400="left: 55%; top: 50%; width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(.2)  rotate(720deg); transform-origin: 50% 150%; skew(360deg); border-width:1px; background: rgba(234, 220, 211, 0)"
+            data-10700="left: 55%; top: 50%;width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(1) rotate(720deg); transform-origin: -50% 100%; border-width:1px; background: rgba(234, 220, 211, 0)"
+
+            data-11000="left: 55%; top: 50%; width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(1)  rotate(720deg); transform-origin: 50% 50%;  border-width:0px; background: rgba(215, 222, 236, 1)" 
+            data-11900="left: 55%; top: 50%; width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(1) rotate(720deg); transform-origin: 125% 100%; border-width:0px; background: rgba(215, 222, 236, 1)" 
+            data-11901="left: 55%; top: 50%; width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(1) rotate(720deg); transform-origin: 50% 50%; border-width:0px; background: rgba(215, 222, 236, 1)"
+            data-12200="left: 55%; top: 50%; width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(360deg) scale(1) rotate(720deg); transform-origin: 50% 50%; border-width:1px; background: rgba(215, 222, 236, 0)"
+            data-12700="left: 55%; top: 50%; width: 34vw; height: 34vw;  transform: translate(0%, -50%) skew(180deg) scale(1) rotate(720deg); transform-origin: 50% 50%; border-width:1px; background: rgba(215, 222, 236, 0)"
+            data-13400=" left: 100%; top: 50%;  width:2vw; height: 2vw;  transform: translate(-50%, -50%) skew(180deg) scale(1) rotate(720deg); transform-origin: 125% 100%; border-width:1px; background: rgba(0,0,0,1); "
+            data-15900=" left: 100%; top: 50%;  width:2vw; height: 2vw;   transform: translate(-50%, -50%) skew(180deg) scale(1) rotate(720deg); transform-origin: 125% 100%; border-width:1px; background: rgba(0,0,0,1); "
+            data-16700=" left: 100%; top: 50%;  width:89vw; height: 89vw;   transform: translate(-64%, -50%) skew(180deg) scale(1) rotate(720deg); transform-origin: 125% 100%; border-width:1px; background: rgba(0,0,0,1); "
+            data-16900=" left: 100%; top: 50%;  width:89vw; height: 89vw;   transform: translate(-64%, -50%) skew(180deg) scale(1) rotate(720deg); transform-origin: 125% 100%; border-width:1px; background: rgba(0,0,0,1); "
+            data-17300=" left: 100%; top: 50%;  width:2vw; height: 2vw;    transform: translate(-64%, -50%) skew(180deg) scale(1) rotate(720deg); transform-origin: 125% 100%; border-width:1px; background: rgba(0,0,0,1); "
+            data-17400="display:none; left: 100%; top: 50%;  width:2vw; height: 2vw;   transform: translate(-64%, -50%) skew(180deg) scale(1) rotate(720deg); transform-origin: 125% 100%; border-width:1px; background: rgba(0,0,0,1); "
+
+           
+     
+            >
+            
+            
+        </div>
+
+        <div class="circle4"
+            data-0="display:none;"
+            data-3000="display:block;  width: 100vw; height: 100vw; transform: translate(55%, -50%)skew(0deg)  ; border-color:rgb(0, 0, 0); skew(0deg);background: rgba(179, 168, 162,0); " 
+            data-4000="  width: 100vw; height: 100vw;  transform: translate(-5%, 32%)skew(0deg) ; border-color:rgb(0, 0, 0); background: rgba(34, 34, 34,0);"
+            data-4700="  width: 100vw; height: 100vw;  transform: translate(-40%, 48%)skew(0deg) ; border-color:rgb(0, 0, 0); background: rgba(34, 34, 34,0);"
+            data-12200=" width: 100vw; height: 100vw;  transform: translate(-40%, 48%)skew(0deg) ; border-color:rgb(0, 0, 0); background: rgba(34, 34, 34,0);"
+            data-13800="  width: 55vw; height: 55vw;  transform: translate(-120%, 30%)skew(0deg) ; border-color:rgb(0, 0, 0);background: rgba(34, 34, 34,0);"
+             data-13900="  width: 55vw; height: 55vw;  transform: translate(-120%, 30%)skew(0deg); border-color:rgb(255, 255, 255);background: rgba(34, 34, 34,0);"
+             data-14600="  width: 150vw; height: 150vw;  transform: translate(-40%, 40%)skew(0deg) ; border-color:rgb(255, 255, 255); background: rgba(34, 34, 34,0);" 
+             data-15300="   display:none; transform: translate(-50%, 4%)skew(0deg) ;   width: 21vw; height: 21vw;  border-color:rgb(0, 0, 0);  background: rgba(179, 168, 162,0);" 
+
+          
+             
+             
+  
+            >
+
+        </div>
+
+
+
+            <div class="sec3">
+                <div class="sec3-title">
+                    <div class="sec3-text">
+                        <h1>Website</h1>
+                        <ul>
+                            <li>web-standard</li>
+                            <li>web-responsive</li>
+                            <li>web-megabox</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="sec3-main">
+
+                    <div class="sec3-site "data-0="display:none;"   data-4300="opacity: 0; display:block; " data-4600="opacity:1;"  data-6300="opacity:1; " data-6700="opacity:0; display:none; " >
+                        <div class="site-dsc">
+                            <em>site01</em>
+                            <h3>webstandard</h3>
+                            <p>
+                                웹 표준 지침서를 준수하여
+                                제작한 사이트입니다. 접근성을 고려하여 작업했으며.
+                                크로스 브라우징은 익스플로러 8버전부터 지원합니다.
+                            </p>
+                            <a href="http://leeraincoat.dothome.co.kr/standard/webstandard_08.html">site view</a>
+                        </div>
+
+                        <div class="site-img"> 
+                            <figure class="site-img" data-5000="opacity:1;  transform: translate(-54%, -50%) scale(0);" data-5400=" opacity:1;   transform: translate(-54%, -50%) scale(1);" data-5800=" opacity:1;   transform: translate(-54%, -50%) scale(1);" data-6200=" opacity:0; transform: translate(-54%, -50%) scale(1);" >
+                                <img src="./assets/img/stan1.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="sec3-site" data-0="display:none;"  data-6800="opacity: 0; display:block;" data-7600="opacity: 1"  data-9300="opacity:1;"  data-9700="opacity:0; display:none;">
+                        <div class="site-dsc">
+                            <em>site02</em>
+                            <h3>Responsive</h3>
+                            <p>
+                                디바이스 종류에 따라 유연하게 보여지는
+                                반응형 작업을 진행한 사이트입니다. 웹표준과 동일한 슬라이드,
+                                탭, 메뉴, 팝업, 동영상 기능등을 추가해서 작업을 진행하였습니다.
+                            </p>
+                            <a href="http://leeraincoat.dothome.co.kr/responsive/index_08.html">site view</a>
+                        </div>
+
+                        <div class="site-img">
+                            <figure class="site-img" data-8000=" opacity:1; transform: translate(-54%, -50%) scale(0);" data-8400=" opacity:1; transform: translate(-54%, -50%) scale(1);"  data-8800=" opacity:1; transform: translate(-54%, -50%) scale(1);"  data-9200="opacity:0; transform: translate(-54%, -50%) scale(1);"   >
+                                <img src="./assets/img/res2.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="sec3-site"  data-0="display:none;"  data-9700="opacity: 0; display:block; " data-10100="opacity: 1" data-12000="opacity1" data-12400="opacity: 0; display:none;">
+                        <div class="site-dsc">
+                            <em>site03</em>
+                            <h3>megabox</h3>
+                            <p>
+                                반응형 작업을 진행한 메가박스 사이트입니다. 
+                                이미지 슬라이더, 탭메뉴, 모달 등 Swiper 플러그인과 
+                                다양한 스크립트 요소를 활용하여 작업한 사이트입니다.
+                            </p>
+                            <a href="http://leeraincoat.dothome.co.kr/megabox/index.html">site view</a>
+
+                        </div>
+
+                        <div class="site-img">
+                            <figure class="site-img" data-11000=" opacity:1;  transform: translate(-54%, -50%) scale(0);" data-11400=" opacity:1;  transform: translate(-54%, -50%) scale(1);" data-11800=" opacity:1; transform: translate(-54%, -50%) scale(1);"  data-12200=" opacity:0;  transform: translate(-54%, -50%) scale(1); " >
+                                <img src="./assets/img/meg2.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </section>
+        <!-- //section3 -->
+        <section id="section4">
+            <div class="sec4">
+                <div class="sec4-text">
+                    <h1>Css.ani</h1>
+                    <ul>
+                        <li>cube , text</li>
+                        <li>svg , tail </li>
+                    </ul>
+                </div>
+
+
+                <div class="ani-wrap-horizontal">
+                    <div class="ani-wrap" data-0="display:none; " data-13300="display:block; right:-60%; top:84%;" data-13600=" right:-60%; top:84%;"  data-14000=" right:-60%; top:0; transform: translate3d(0px, 0px, 0px); " data-15100="transform: translate3d(-1920px, 0px, 0px); " data-15600="transform: translate3d(-1920px, -900px, 0px);  "  data-16000="display:none; ">
+                        <div class="ani-bar">
+                            <div class="circle">
+                                <div></div>
+                            </div>
+                            <div class="circle">
+                                <div></div>
+                            </div>
+                            <div class="circle">
+                                <div></div>
+                            </div>
+                            <div class="circle">
+                                <div></div>
+                            </div>
+                            <div class="circle">
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="ani-con">
+                            <div class="cube">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+
+                        </div>
+                        <div class="ani-con2">
+                            <ul>
+                                <li>the</li>
+                                <li>rain</li>
+                                <li>coat</li>
+                                <li>lee</li>
+                                <li>woo</li>
+                                <li>bi</li>
+                                <li>alk</li>
+                                <li>phe</li>
+                                <li>nix</li>
+                                <li>ame</li>
+                                <li>mute</li>
+                                <li>iam</li>
+                            </ul>
+                        </div>
+
+                        <div class="ani-bar2">
+                            <div class="words word-1">
+                                <span>f</span>
+                                <span>r</span>
+                                <span>o</span>
+                                <span>n</span>
+                                <span>t</span>
+                                <span>e</span>
+                                <span>n</span>
+                                <span>d</span>
+                            </div>
+
+                            <div class="words word-2">
+                                <span>I</span>
+                                <span>S</span>
+                            </div>
+
+                            <div class="words word-3">
+                                <span>C</span>
+                                <span>O</span>
+                                <span>O</span>
+                                <span>L</span>
+                            </div>
+
+                        </div>
+
+                        <div class="ani-con3">
+                            <div class="circles">
+                                <div class="row">
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ani-bar3">
+                            <svg viewBox="0 0 1320 300">
+                                <text x="50%" y="50%" dy="40px" text-anchor="middle">my css</text>
+                            </svg>
+                        </div>
+
+
+                        <div class="ani-con4">
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
+        <!-- //section4 -->
+
+
+        <div class="circle5"
+        data-0="display:none;"
+        data-17300=" display:block;
+                      width:2vw; height: 2vw; transform: translate(-64%, -50%) skew(360deg) scale(1) rotate(0deg); opacity:1;   transform-origin: 50% 50%;  background: rgba(0,0,0,1);  left: 100%; top: 50%;"
+        data-18000="  width:2vw; height: 2vw; transform: translate(-59%, -50%) skew(360deg) scale(1) rotate(0deg);  opacity:1; transform-origin: 50% 50%;  background: rgba(0,0,0,0); left: 100%; top: 50%;"
+        data-18800="  width:21vw; height: 21vw; transform: translate(-137%, -50%) skew(0deg) scale(1) rotate(0deg);  opacity:1;transform-origin: 50% 50%; background: rgba(0,0,0,0); left: 100%; top: 50%;"
+
+        data-18900="  width:34vw; height: 34vw; transform: translate(-137%, -50%) skew(0deg) scale(1) rotate(0deg); opacity:1; transform-origin: -125% 100%; background: rgba(0,0,0,1); left: 100%; top: 50%;"
+        data-19500="  width:34vw; height: 34vw; transform: translate(-137%, -50%) skew(0deg) scale(1) rotate(0deg);  opacity:1;transform-origin: 50% 50%; background: rgba(0,0,0,1); left: 100%; top: 50%;"
+        data-19900="  width:34vw; height: 34vw; transform: translate(-137%, -50%) skew(0deg) scale(.3) rotate(0deg);opacity:1;transform-origin: 15% -10%;  background: rgba(0,0,0,1); left: 100%; top: 50%;"
+        data-20400="  width:34vw; height: 34vw; transform: translate(-137%, -50%) skew(0deg) scale(.1) rotate(180deg);opacity:1; transform-origin: -180% 150%;  background: rgba(0,0,0,1); left: 100%; top: 50%;"
+        data-20800="  width:34vw; height: 34vw; transform: translate(-137%, -50%) skew(0deg) scale(.1) rotate(300deg); opacity:1; transform-origin: -180% 0%;   background: rgba(0,0,0,1);left: 100%; top: 50%; "
+        data-21200="  width:34vw; height: 34vw; transform: translate(-137%, -50%) skew(0deg) scale(1) rotate(360deg); opacity:1; transform-origin: -180%  0%;   background: rgba(0,0,0,1);left: 100%; top: 50%; "
+
+        data-21800="  width:34vw; height: 34vw; transform: translate(-137%, -50%) skew(0deg) scale(1) rotate(360deg); opacity:1; transform-origin: 50% 50%; border-width:1px;    background: rgba(34, 34, 34, 1); left: 100%; top: 50%;"
+        data-22200="  width:34vw; height: 34vw; transform: translate(-137%, -50%) skew(0deg) scale(.3) rotate(360deg); opacity:1;transform-origin: 15% -10%; border-width:1px;   background: rgba(34, 34, 34, 1); left: 100%; top: 50%;"
+        data-22700="  width:34vw; height: 34vw; transform: translate(-137%, -50%) skew(0deg) scale(.1) rotate(540deg); opacity:1;transform-origin: -180% 150%; border-width:1px;   background: rgba(34, 34, 34, 1); left: 100%; top: 50%;"
+        data-23100="  width:34vw; height: 34vw; transform: translate(-137%, -50%) skew(0deg) scale(.1) rotate(660deg); opacity:1; transform-origin: -180% 0%;  border-width:1px;   background: rgba(34, 34, 34, 1);left: 100%; top: 50%; "
+        data-23500="  width:34vw; height: 34vw; transform: translate(-137%, -50%) skew(0deg) scale(1) rotate(720deg); opacity:1; transform-origin: -180%  0%; border-width:1px;    background: rgba(34, 34, 34, 1);left: 100%; top: 50%; "
+
+        data-24100="  width:34vw; height: 34vw; transform: translate(-137%, -50%) skew(0deg) scale(1) rotate(720deg); opacity:1; transform-origin: 50% 50%; border-width:1px;   background: rgba(34, 34, 34, 1); left: 100%; top: 50%;"
+        data-24500="  width:34vw; height: 34vw; transform: translate(-137%, -50%) skew(0deg) scale(.3) rotate(720deg);opacity:1; transform-origin: 15% -10%; border-width:1px;   background: rgba(34, 34, 34, 1); left: 100%; top: 50%;"
+        data-25000="  width:34vw; height: 34vw; transform: translate(-137%, -50%) skew(0deg) scale(.1) rotate(900deg); opacity:1;transform-origin: -180% 150%; border-width:1px;   background: rgba(34, 34, 34, 1); left: 100%; top: 50%;"
+        data-25400="  width:34vw; height: 34vw; transform: translate(-137%, -50%) skew(0deg) scale(.1) rotate(1020deg); opacity:1; transform-origin: -180% 0%;  border-width:1px;   background: rgba(34, 34, 34, 1);left: 100%; top: 50%; "
+        data-25800="  width:34vw; height: 34vw; transform: translate(-137%, -50%) skew(0deg) scale(1) rotate(1080deg); opacity:1; transform-origin: -180%  0%;  border-width:1px;   background: rgba(34, 34, 34, 1);left: 100%; top: 50%; "
+
+        data-26400="  width:34vw; height: 34vw; transform: translate(-137%, -50%) skew(0deg) scale(1) rotate(1080deg);  opacity:1;transform-origin: 50% 50%; border-width:1px;   background: rgba(34, 34, 34, 1); left: 100%; top: 50%;"
+        data-26800="  width:34vw; height: 34vw; transform: translate(-50%, -50%) skew(0deg) scale(.3) rotate(1080deg); opacity:1;transform-origin: 50% 50%; border-width:1px;   background: rgba(34, 34, 34, 1); left: 50%; top: 50%;"
+        data-27300="  width:34vw; height: 34vw; transform: translate(-50%, -50%) skew(0deg) scale(.1) rotate(1080deg); opacity:1;transform-origin: 50% 50%; border-width:1px;   background: rgba(34, 34, 34, 1); left: 50%; top: 50%;"
+        data-27700="  width:34vw; height: 34vw; transform: translate(-50%, -50%) skew(0deg) scale(.1) rotate(1080deg); opacity:1; transform-origin: 50% 50%; border-width:1px;    background: rgba(34, 34, 34, 1);left: 50%; top: 50%; "
+        data-28500="  width:34vw; height: 34vw; transform: translate(-50%, -100%) skew(0deg) scale(.1) rotate(1080deg); opacity:1; transform-origin: 50%  50%; border-width:1px;   background: rgba(34, 34, 34, 1);left: 50%; top: 50%; "
+        data-28900="  width:34vw; height: 34vw; transform: translate(-50%, 50%) skew(0deg) scale(0) rotate(1080deg); opacity:0; transform-origin: 50%  0%; border-width:1px;    background: rgba(34, 34, 34, 1);left: 50%; top: 50%; "
+
+        data-29300="  width:89vw; height: 89vw; transform: translate(-50%, -50%) skew(0deg) scale(1) rotate(1080deg); opacity:0; transform-origin: 50%  50%;  border-width:1px;  background: rgba(0,0,0,0);left: 50%; top: 50%; "
+        data-29700="  width:89vw; height: 89vw; transform: translate(-50%, -50%) skew(0deg) scale(.7) rotate(1080deg); opacity:1; transform-origin: 100%  50%;  border-width:1px;   background: rgba(34, 34, 34, 1);left: 50%; top: 50%; "
+
+
+        
+
+       
+        ></div>
+        
+        <div class="circle6"
+        data-0="display:none;"
+        data-15300=" display:block; transform: translate(-50%, 4%)skew(0deg) scale(1);   width: 21vw; height: 21vw; " 
+        data-16800=" transform: translate(-48%, 50%)skew(0deg) scale(1);   width: 100vw; height: 100vw;    " 
+        data-18000=" transform: translate(-48%, 50%)skew(0deg) scale(1);   width: 120vw; height: 120vw;      " 
+        data-18400=" transform: translate(-77%, 50%)skew(0deg) scale(1) ;   width: 100vw; height: 100vw;    " 
+        data-18900=" transform: translate(-77%, 50%)skew(0deg) scale(1) ;   width: 89vw; height: 89vw;;    " 
+        data-19500=" transform: translate(-77%, 50%)skew(0deg)scale(1) ;   width: 89vw; height: 89vw;      " 
+
+        data-19900=" transform: translate(-77%, 50%)skew(45deg)scale(1) ;   width: 34vw; height: 34vw;      " 
+        data-20400=" transform: translate(-77%, 50%)skew(90deg)scale(1) ;   width: 21vw; height: 21vw;   " 
+        data-20800=" transform: translate(-77%, 50%)skew(135deg)scale(1) ;   width: 34vw; height: 34vw;      " 
+        data-21200=" transform: translate(-77%, 50%)skew(180deg)scale(1) ;   width: 89vw; height: 89vw;   " 
+
+        data-21800=" transform: translate(-77%, 50%)skew(180deg)scale(1) ;   width: 89vw; height: 89vw;      " 
+        data-22200=" transform: translate(-77%, 50%)skew(225deg)scale(1) ;   width: 34vw; height: 34vw;   " 
+        data-22700=" transform: translate(-77%, 50%)skew(270deg)scale(1) ;   width: 21vw; height: 21vw;      " 
+        data-23100=" transform: translate(-77%, 50%)skew(315deg)scale(1) ;   width: 34vw; height: 34vw;   "
+        data-23500=" transform: translate(-77%, 50%)skew(360deg)scale(1) ;   width: 89vw; height: 89vw;   " 
+
+        data-24100=" transform: translate(-77%, 50%)skew(360deg)scale(1) ;   width: 89vw; height: 89vw;      " 
+        data-24500=" transform: translate(-77%, 50%)skew(405deg)scale(1) ;   width: 34vw; height: 34vw;   " 
+        data-25000=" transform: translate(-77%, 50%)skew(450deg)scale(1) ;   width: 21vw; height: 21vw;      " 
+        data-25400=" transform: translate(-77%, 50%)skew(495deg)scale(1) ;   width: 34vw; height: 34vw;   "
+        data-25800=" transform: translate(-77%, 50%)skew(540deg)scale(1) ;   width: 89vw; height: 89vw;   " 
+
+        data-26400=" transform: translate(-77%, 50%)skew(540deg)scale(1) ;   width: 89vw; height: 89vw;      " 
+        data-26800=" transform: translate(-50%, 50%)skew(540deg)scale(0) ;   width: 34vw; height: 34vw;   " 
+        data-26800=" transform: translate(-50%, 50%)skew(540deg)scale(0) ;   width: 34vw; height: 34vw;   " 
+
+        data-28000=" transform: translate(-77%, 50%)skew(630deg)scale(1) ;   width: 21vw; height: 21vw;      "
+        data-28100=" transform: translate(-77%, 50%)skew(630deg)scale(0) ;   width: 21vw; height: 21vw;      " 
+
+        data-28800=" transform: translate(-50%, 100%)skew(0deg)scale(0) ;   width: 21vw; height: 21vw;      " 
+        data-28900=" transform: translate(-50%, 100%)skew(180deg)scale(1) ;   width:34vw; height: 34vw;      " 
+        data-29300=" transform: translate(-50%, 50%)skew(360deg)scale(.1) ;   width: 89vw; height: 89vw;      " 
+        data-29700=" transform: translate(-50%, 50%)skew(360deg)scale(1) ;   width: 89vw; height: 89vw;      " 
+       
+        ></div>
+
+
+        <section id="section5">
+            <div class="sec5">
+                <div class="sec5-title" data-0="color:rgba(0,0,0,1)"data-16300="color:rgba(0,0,0,1)"  data-16700="color:rgba(255,255,255,1)" >
+
+                    <h1 data-0="color:rgba(0,0,0,1)"data-16300="color:rgba(0,0,0,1)" data-16700="color:rgba(255,255,255,1)">
+                    JavaScript</h1>
+                    <ul>
+                        <span data-0="background:rgba(0,0,0,1)"data-16300="background:rgba(0,0,0,1)" data-16700="background:rgba(255,255,255,1)"></span>
+                        <li>study , works</li>
+                        <li>frontend Developer</li>
+                    </ul>
+
+
+                </div>
+
+                <div class="sec5-list">
+                    <ul>
+                        <li>to do list</li>
+                        <li>tic tac toe</li>
+                        <li>lotto lottery</li>
+                        <li>tetris</li>
+                    </ul>
+                </div>
+
+
+                <div class="module" data-0="display:none; " data-18800="display:block;"  data-19600="display:none;">
+
+                    <div class="sec5-set">
+                        
+                        <div class="sec5-con con1"  data-18800="transform:translate(100%, 0%)  scale(0);" data-18900="transform:translate(-28%, 0%)  scale(1);"data-19500="   transform:translate(-28%, 0%) scale(1);"  data-19600="  transform:translate(-28%, 0%) scale(0);" >
+                           
+                                <div class="js-clock">
+                                    <h1>00:00</h1>
+                                    <span class="js-weather"></span>
+                                </div>
+
+                                <form class="js-form form">
+
+                                    <input type="text" placeholder="what  is your name">
+
+                                </form>
+
+                                <h4 class="js-greetings grettings"></h4>
+
+                                <form action="" class="js-toDoForm">
+                                    <input type="text" placeholder="write a to do ">
+                                </form>
+                                <ul class="js-toDoList">
+                                </ul>
+
+                              
+                    </div>
+                    
+                        <div class="sec5-desc desc1"  data-18800="opacity:0;" data-18900="opacity:1;" data-19500="opacity:1;" data-19600="opacity:0;"  >
+                            <em>javascript module</em>
+
+                            <h3>to do list </h3>
+
+                            <span>code view</span>
+                            <p>
+                                모멘토라는 브라우저 앱을 클론 코딩하여
+                                여러 api를 가져와 날씨나 지리적 정보를 사용하고
+                                자바스크립트로 이름과 해야할 일 등의
+                                정보를 로컬 저장소에 넣어 목록을 생성,
+                                삭제가 가능하도록 작업했습니다.
+                            </p>
+                        </div>
+
+                    </div>
+                 </div>
+
+                 <div class="module" data-0="display:none; " data-21100="display:block;"  data-21900="display:none;">
+
+                    <div class="sec5-set">
+                        <div class="sec5-con con2"  data-21100="transform:translate(100%, 0%)  scale(0);" data-21200="transform:translate(-8%, 0%)  scale(1);"data-21800="   transform:translate(-8%, 0%) scale(1);"  data-21900="  transform:translate(-8%, 0%) scale(0);" >
+
+                            <h3> Click on the blank!</h3>
+                            <div class="board" id="board">
+                                <div class="cell" data-cell ></div>
+                                <div class="cell" data-cell ></div>
+                                <div class="cell" data-cell ></div>
+                                <div class="cell" data-cell ></div>
+                                <div class="cell" data-cell ></div>
+                                <div class="cell" data-cell ></div>
+                                <div class="cell" data-cell ></div>
+                                <div class="cell" data-cell ></div>
+                                <div class="cell" data-cell ></div>
+                            </div>
+                    
+                            <div class="winning-message" id="winningMessage">
+                                <div data-winning-message-text> </div>
+                                <button id="restartButton">Restart </button>
+                            </div>
+                             
+
+                              
+                    </div>
+                    
+                        <div class="sec5-desc desc2"  data-21100="opacity:0;" data-21200="opacity:1;" data-21800="opacity:1;" data-21900="opacity:0;"  >
+                            <em>javascript module</em>
+
+                            <h3>tic tac toe </h3>
+
+                            <span><a href="https://codepen.io/leeraincoat/pen/mdWWjYV">code view</a></span>
+                            <p>
+                               3목게임 틱택토를 자바스크립트를 이용하여
+                               게임의 구성요소 , 승리조건, 승리판단 여부를 
+                               구현하였습니다. 
+                            </p>
+                        </div>
+
+                    </div>
+                 </div>
+
+
+                 <div class="module" data-0="display:none; " data-23400="display:block;"  data-24200="display:none;">
+
+                    <div class="sec5-set">
+                        <div class="sec5-con con3"  data-23400="transform:translate(100%, 0%)  scale(0);" data-23500="transform:translate(-28%, 0%)  scale(1);"data-24100="   transform:translate(-28%, 0%) scale(1);"  data-24200="  transform:translate(-28%, 0%) scale(0);" >
+
+                            <h3>Number</h3>
+                            <div id="결과창"></div>
+                            <h3>bonus</h3>
+                            <div class="보너스"></div>
+                            <button class="btnLotoo">start</button>
+                             
+
+                              
+                    </div>
+                    
+                        <div class="sec5-desc desc3"  data-23400="opacity:0;" data-23500="opacity:1;" data-24100="opacity:1;" data-24200="opacity:0;"  >
+                            <em>javascript module</em>
+
+                            <h3>lotto lottery</h3>
+
+                            <span><a href="https://codepen.io/leeraincoat/pen/mdWWjYV">code view</a></span>
+                            <p>
+                               자바스크립트로 랜덤으로 숫자를 출력하고 
+                               배열 메서드를 이용하여 로또번호를 추출하는 모듈입니다.
+                            </p>
+                        </div>
+
+                    </div>
+                 </div>
+
+                 <div class="module" data-0="display:none; " data-25700="display:block;"  data-26400="display:none;">
+
+                    <div class="sec5-set">
+                        <div class="sec5-con con4"  data-25700="transform:translate(100%, 0%)  scale(0);" data-25800="transform:translate(-8%, 0%)  scale(1);"data-26400="   transform:translate(-8%, 0%) scale(1);"  data-26500="  transform:translate(-8%, 0%) scale(0);" >
+
+                         
+                                <div class="game-text">
+                                     <span>TETRIS</span>
+                                    <button class="restartButton">start</button>
+                                </div>
+                                
+                              <div class="score">0</div>
+                                 <div class="playground">
+                                    <ul></ul>
+                                </div>
+                                
+
+                    </div>
+                    
+                        <div class="sec5-desc desc4"  data-25700="opacity:0;" data-25800="opacity:1;" data-26400="opacity:1;" data-26500="opacity:0;"  >
+                            <em>javascript module</em>
+
+                            <h3>Tetris</h3>
+
+                            <span>code view</span>
+                            <p>
+                               추억의 고전게임 테트리스를 
+                               자바스크립트를 통해 구현했습니다.
+                               방향키와 스페이스바로 조작이 가능합니다.
+                            </p>
+                        </div>
+
+                    </div>
+                 </div>
+
+             
+
+                </div>
+        </section>
+        <!-- //section5 -->
+        <section id="section6">
+            <div class="sec6">
+                <div class="contact">
+                    <h1>contact </h1>
+                    <ul>
+                        <li>leesangin</li>
+                        <li>birth: 1997 1005</li>
+                        <li>hp: 010 8081 4687</li>
+                        <li>leeraincoat@gmail.com</li>
+                    </ul>
+            </div>
+        </div>
+
+        </section><!-- //section6 -->
+    </div>
+    <!-- //contents -->
+
+    
+    <!-- 모멘톰  -->
+
+    <script src="./assets/js/nm.js"> </script>
+    <script src="./assets/js/gretting.js"> </script>
+    <script src="./assets/js/todo.js"> </script>
+    <script src="./assets/js/weather.js"> </script>
+
+<!-- tic -->
+<script src="./assets/js/tic.js"></script>
+<!-- lotto -->
+<script src="./assets/js/lotto.js"></script>
+<!-- tetris -->
+<script src="./assets/js/tetris.js"></script>
+
+
+    <script>
+        window.addEventListener("keydown", function(e) {
+				if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+					e.preventDefault();
+				}
+			}, false);
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/skrollr@0.6.26/dist/skrollr.min.js"></script>
+    <script>
+        //skrollr 
+        var s = skrollr.init({
+            edgeStrategy: 'set',
+            easing: 'linear'
+        });
+
+        $(window).scroll(function() {
+            let scroll = $(window).scrollTop();
+
+            $(".scroll").text(scroll)
+        });
+       </script>
+
+        <?php
+        
+        echo "<prev>";
+        var_dump($_SESSION);
+        echo "</prev>";
+        
+        ?>
+   </body>
+
+</html>
